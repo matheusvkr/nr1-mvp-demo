@@ -1,5 +1,3 @@
-/** @type {import('next').NextConfig} */
-
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
@@ -8,7 +6,7 @@ const nextConfig = {
   trailingSlash: true,
 
   basePath: isProd ? '/nr1-mvp-demo' : '',
-  assetPrefix: isProd ? '/nr1-mvp-demo/' : '',
+  assetPrefix: isProd ? '/nr1-mvp-demo' : '',
 
   images: {
     unoptimized: true,
