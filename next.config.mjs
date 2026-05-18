@@ -3,7 +3,7 @@ const nextConfig = {
 
   output: 'export',
   basePath: '/nr1-mvp-demo',
-  assetPrefix: '/nr1-mvp-demo/',
+  //assetPrefix: '/nr1-mvp-demo/',
 
   typescript: {
     ignoreBuildErrors: true,
